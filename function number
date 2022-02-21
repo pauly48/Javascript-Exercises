@@ -1,0 +1,5 @@
+const fn = (a,b) => {
+  return a + b
+}
+const solution = fn(10,10)
+console.log(solution)
