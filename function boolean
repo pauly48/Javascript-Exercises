@@ -1,0 +1,7 @@
+const solution = () => {
+  let hello = 5
+  return 'hello' !== hello
+}
+
+const answer = solution()
+console.log(answer)
