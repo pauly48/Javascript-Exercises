@@ -1,0 +1,5 @@
+const solution = () => {
+  return !'Hello' +' Hello'  
+}
+const answer = solution()
+console.log(answer)
