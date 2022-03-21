@@ -1,0 +1,13 @@
+const numberedHello = (num, i = 1, result = '') => {
+  if (num < i) {
+        return result
+    }
+        return numberedHello(num, i+1, result + "hello")
+     
+}
+
+
+
+numberedHello(5) // "hellohellohellohellohello"
+numberedHello(0) // ""
+numberedHello(-4) // ""
